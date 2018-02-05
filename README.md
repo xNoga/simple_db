@@ -4,7 +4,7 @@
 In order to clone and run the project you must have a valid Go-installation on your computer. If you have not installed Go on your computer, a guide can be found [here.](https://golang.org/doc/install)
 
 If Go is installed you can simply just clone the project and execute the *Aflevering_1* file with matching arguments for the file. 
-If you're on a Windows computer you might have to type *go install* or *go build* in order to make a new executable that Windows can read. Both commands will build a new executeable, but in different locations. *go build* should create a new executable in the root of the project. 
+If you're on a Windows computer you might have to type *go install* or *go build* in order to make a new executable that Windows can read. Both commands will build a new executable, but in different locations. *go build* should create a new executable in the root of the project. 
 
 ## Arguments
 In order to run the program you must specify what operation you wish to use on the database. The project supports *get* and *set* on the database.
