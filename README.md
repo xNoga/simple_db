@@ -21,3 +21,6 @@ This will create a new entry in the database. It is important to write the secon
 
 ## Indexes
 When the user inserts a new entry in the database a byteOffset for that entry is stored in a hashmap. This way when the user tries to query from the database the hashmap will supply at what byteOffset the program should look for in the database-text-file. This way, the program doesn't look through the entire file but at a certain offset. The program will then read all bytes until a newline is found. Afterwards the entry the user was looking for will be returned. 
+
+## Notes
+The file *index.txt* should never be completely empty if you wish to reset the database. The file must at least contain a pair of brackets "{}" in order to work. 
